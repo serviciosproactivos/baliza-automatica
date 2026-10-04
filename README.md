@@ -1,3 +1,6 @@
+<img width="300" height="300" alt="logo" src="https://github.com/user-attachments/assets/ff397f34-14e2-4a0e-8b5b-d97fc73e4702" />
+
+
 # Baliza STT / TTS para Radioaficionados (Local & Offline)
 
 Sistema automatizado de baliza de radio que opera de forma **100% local, offline y eficiente** en sistemas **Linux**, utilizando **Python**, **`faster-whisper`** (para reconocimiento de voz en tiempo real) y **`piper-tts`** (para síntesis de voz natural en español de Argentina).
