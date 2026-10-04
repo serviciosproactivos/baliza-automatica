@@ -66,7 +66,7 @@ Se puede crear un archivo `.env` en la raíz del proyecto o exportarlas directam
 | `BALIZA_MODE` | Modo de baliza: `tts` (voz sintética) o `file` (archivo de audio wav) | `tts` |
 | `BALIZA_TEXT` | Texto que dirá la baliza si el modo es `tts` | `"CQ. CQ. Aquí estación automática de baliza del radioclub antenita, en el marco del concurso automatizado con inteligencia artificial. Por favor, identifíquese con su señal distintiva dentro de los próximos 5 segundos, utilizando el alfabeto internacional."` |
 | `AUDIO_BALIZA_FILE` | Nombre del archivo WAV si el modo es `file` | `baliza.wav` |
-| `RECORD_SECONDS_CALL` | Segundos que graba para escuchar el indicativo | `4` |
+| `RECORD_SECONDS_CALL` | Segundos que graba para escuchar el indicativo | `5` |
 | `RECORD_SECONDS_CONFIRM` | Segundos que graba para escuchar la confirmación SÍ/NO | `3` |
 
 ---
