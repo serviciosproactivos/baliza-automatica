@@ -1,5 +1,6 @@
+<p align="center">
 <img width="300" height="300" alt="logo" src="https://github.com/user-attachments/assets/ff397f34-14e2-4a0e-8b5b-d97fc73e4702" />
-
+</p>
 
 # Baliza STT / TTS para Radioaficionados (Local & Offline)
 
@@ -48,6 +49,13 @@ sudo apt-get update && sudo apt-get install -y \
    pip install -r requirements.txt
    ```
 
+4. **Descargar los modelos de voz:**
+   ```bash
+    cd modelos_piper
+    wget https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_AR/daniela/high/es_AR-daniela-high.onnx
+    wget https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_AR/daniela/high/es_AR-daniela-high.onnx.json
+    cd ..
+   ```
 ---
 
 ## 🎛️ Configuración (Variables de Entorno)
